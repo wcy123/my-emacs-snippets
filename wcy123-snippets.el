@@ -26,7 +26,7 @@
   (add-to-list 'yas-snippet-dirs 'wcy123-snippets-dir t)
   (yas-load-directory wcy123-snippets-dir t))
 (eval-after-load 'yasnippet
-   '(wcy123-snippets-initialize))
+   '(progn (wcy123-snippets-initialize)))
 (provide 'wcy123-snippets)
 
 ;;; wcy123-snippets.el ends here
