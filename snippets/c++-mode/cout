@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: out<< "a=" << a
+# key: out
+# --
+<< "${1:var}=" << $1 << " " //
